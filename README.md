@@ -26,6 +26,7 @@ su -
 5. Устанавливаем DHCP сервер
 ```
 apt-get update
+# не делайте apt upgrade, это может поломать пакеты EVE-ng
 apt-get -y install isc-dhcp-server vim-nox
 ```
 6. Настраиваем сети для cloud-9(DHCP+Inet), Cloud-8(DHCP) и ребутаем сервер
